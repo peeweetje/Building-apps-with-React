@@ -1,0 +1,47 @@
+
+.main {
+  width: 100%;
+  display:inline-flex;
+  background:-webkit-gradient(linear, 80% 20%, 10% 21%, from(#00FFAB), to(#008EB3));
+      .left{
+      width: 50%;
+      text-align: center;
+      text-shadow:1px 1px 1px #444;
+     }
+       .right{
+       width: 50%;
+       text-align: center;
+        }
+       .markdown {
+       font-size: 2.5em;
+       font-family: 'Inknut Antiqua', serif;
+      }
+       .preview {
+       font-size: 2.5em;
+       font-family: 'Inknut Antiqua', serif;
+       }
+       .border{
+         width: 77%;
+         height: 60.8%;
+         margin-top: 9.7%;
+         margin-left: 9%;
+         padding-top: -5px;
+         padding-left: 7px;
+         text-align: left;
+         background-color: #fff;
+         border: 1px solid #000;
+         -moz-box-shadow: 2px 2px 2px #444;
+         -webkit-box-shadow: 2px 2px 2px #444;
+           box-shadow: 2px 2px 2px #444;
+       }
+         textarea {
+        padding-top: 25px;
+        margin: 2em;
+        height: 25em;
+        width: 75%;
+        border: 1px solid #000;
+        -moz-box-shadow: 2px 2px 2px #444;
+        -webkit-box-shadow: 2px 2px 2px #444;
+          box-shadow: 2px 2px 2px #444;
+      }
+}
